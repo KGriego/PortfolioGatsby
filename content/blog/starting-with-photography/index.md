@@ -2,7 +2,7 @@
 title: Starting with Photography
 date: "2019-05-02"
 thumbnail: ./home.png
-tags: [Express, NodeJS, React, semantic-ui]
+tags: [React, semantic-ui]
 description: Showing the world one picture at a time.
 ---
 
