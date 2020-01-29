@@ -57,6 +57,7 @@ const Contact = ({ data }, location) => {
   )
 }
 
+
 const indexQuery = graphql`
   query {
     site {
