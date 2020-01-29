@@ -1,8 +1,8 @@
 ---
 title: Filing some Taxes
 date: "2019-05-02"
-thumbnail: ./Chirpy.png
-tags: [React, semantic-ui]
+thumbnail: ./desktop_home.png
+tags: [React, semantic-ui, Gatsby]
 description: Description about taxes
 ---
 
@@ -11,27 +11,26 @@ description: Description about taxes
     Working title
   </h3>
   <p>
-    a bunhc of text in here
+    Made for and accounting firm.  
   </p>
-  these are the links
   <p>
-    <a href='http://kllll.s3-website-us-west-1.amazonaws.com/login'>
+    <a href='http://happy-roentgen-0e9da3.netlify.com'>
       Demo
     </a>
   </p>
   <p>
-    <a href='https://github.com/bytesizedxyz/nov-project-chirp-backend'>
-      Backend Repo
-    </a>
-  </p>
-  <p>
-    <a href='https://github.com/bytesizedxyz/nov-project-chirp-frontend'>
+    <a href='https://github.com/Midlu/LanHiWebsite/settings'>
       Frontend Repo
     </a>
   </p>
   <p>
-  lorem ipsum stuff
+  lorem ipsum stuff about mobile responsiveness
   </p>
   
+
+  ![A look at some mobile responsiveness!!](./mobile_home.png)
+
+
+  ![A look at even more mobile responsiveness!!](./about_us_taxes.png)
 
 </div>
