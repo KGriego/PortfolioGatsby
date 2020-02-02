@@ -1,6 +1,6 @@
 ---
 title: Roulette With Chat
-date: "2019-05-02"
+date: "2018-12-21"
 thumbnail: ./UserRoulette.png
 tags: [Express, passport, NodeJS, React, semantic-ui]
 description: Trying to chat the block up.
@@ -29,8 +29,8 @@ description: Trying to chat the block up.
     </a>
   </p>
 
-  ![You could end up chatting with The Donkey Kong](./donkey_kong.png)
+![You could end up chatting with The Donkey Kong](./donkey_kong.png)
 
-  ![Or you can sign up and be on the list of chatters!](./sign_up.png)
+![Or you can sign up and be on the list of chatters!](./sign_up.png)
 
 </div>

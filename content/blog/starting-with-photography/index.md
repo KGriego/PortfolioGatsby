@@ -1,6 +1,6 @@
 ---
 title: Starting with Photography
-date: "2019-05-02"
+date: "2019-08-03"
 thumbnail: ./home.png
 tags: [React, semantic-ui, Gatsby]
 description: Showing the world one picture at a time.

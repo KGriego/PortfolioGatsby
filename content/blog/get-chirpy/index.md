@@ -1,6 +1,6 @@
 ---
 title: Get Chirpy
-date: "2019-05-02"
+date: "2018-12-04"
 thumbnail: ./Chirpy.png
 tags: [React, semantic-ui, jest]
 description: A deep investigation into the happenings of other lives.
@@ -31,12 +31,12 @@ description: A deep investigation into the happenings of other lives.
   <p>
     Along the way, we managed to integrate a theme switch. Learning how to go from the Dark Side to the Light Side was an interesting experience. 
   </p>
-  
 
-  ![Toggle between the Dark and Light side!](./light_theme.png)
 
-  ![Add your chirp to the Dark or Light side! You choose!](./new_post.png)
+![Toggle between the Dark and Light side!](./light_theme.png)
 
-  ![Search through the chirps!](./search.png)
+![Add your chirp to the Dark or Light side! You choose!](./new_post.png)
+
+![Search through the chirps!](./search.png)
 
 </div>

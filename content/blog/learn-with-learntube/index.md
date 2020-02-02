@@ -1,6 +1,6 @@
 ---
 title: Learn with Learntube
-date: "2019-05-02"
+date: "2018-12-19"
 thumbnail: ./LearnTube.png
 tags: [postgres, Express, passport, NodeJS, React, Redux]
 description: A different take on learning.
@@ -22,8 +22,8 @@ description: A different take on learning.
     <a href='https://github.com/bytesizedxyz/dec-project-learntube'>
       Repo
     </a>
-  </p>  
+  </p>
 
-  ![Learning something new everyday](./quick_video.png)
+![Learning something new everyday](./quick_video.png)
 
 </div>

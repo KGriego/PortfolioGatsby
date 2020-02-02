@@ -1,6 +1,6 @@
 ---
 title: Filing some Taxes
-date: "2019-05-02"
+date: "2019-07-02"
 thumbnail: ./desktop_home.png
 tags: [React, semantic-ui, Gatsby]
 description: Description about taxes
@@ -26,11 +26,10 @@ description: Description about taxes
   <p>
   lorem ipsum stuff about mobile responsiveness
   </p>
-  
-
-  ![A look at some mobile responsiveness!!](./mobile_home.png)
 
 
-  ![A look at even more mobile responsiveness!!](./about_us_taxes.png)
+![A look at some mobile responsiveness!!](./mobile_home.png)
+
+![A look at even more mobile responsiveness!!](./about_us_taxes.png)
 
 </div>

@@ -1,7 +1,7 @@
 ---
 title: Cooming soon!
-date: "2019-05-02"
-thumbnail: 
+date: "2020-02-02"
+thumbnail:
 tags: [who_knows!?]
 description: Soon to be seen!
 ---
