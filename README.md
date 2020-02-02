@@ -1,65 +1,46 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="80" />
-  </a>
-</p>
+# Kevin A. Griego's Portfolio
 
-<h1 align="center">
-  London After Midnight
+This portfolio is a place to showcase the projects I've worked on, am working on, and want to work on.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/vaporwavy/gatsby-london-after-midnight)
+## Front-End Development Environment
 
-</h1>
+### Software used
 
----
+- VS Code
+- iTerm
+- PgAdmin
+- Go
+- Heroku
 
-A custom, image-centric theme for Gatsby. Made for publishers and portfolios with plenty of graphics to show off to the world. Completely free and fully responsive, released under the MIT license.
+### Steps to setup environment
 
-**Based on [London](https://github.com/ImedAdel/gatsby-london) for Gatsby**
+1. Clone this repository
+1. Install Node packages: `npm install`
 
-**Demo: https://gatsby-lam.vaporwavy.io**
+## Steps to deploy application
 
----
+1.
 
-### What is different from London?
-* Support Tag
-* Full Recoloring for Dark themes
-* Highlight Syntax with Prism.js
-* Support Korean and Japanese
-* Parameterize All Colors
-* Change the Format of Thumbnailless Postcards
+### Libraries
 
----
+| Library | Docs                            | Purpose                                                       |
+| ------- | ------------------------------- | ------------------------------------------------------------- |
+| React   | https://reactjs.org/            | our Javascript framework for single-page application          |
+| Jest    | https://jestjs.io/en            | Javascript unit testing                                       |
+| Axios   | https://github.com/axios/axios  | Ajax request library                                          |
+| Lodash  | https://lodash.com/docs/4.17.11 | Suite of helper utilities for dealing with arrays and objects |
 
-_First time with Gatsby? Take a look on the [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+## Available Scripts
 
-## 🚀 Quick start
+In the project directory, you can run:
 
-1.  **Create a Gatsby site.**
+### `gin -i run main.go`
 
-    Use `npx` and the Gatsby CLI to create a new project
+Runs the app in the development mode.<br>
+Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
 
-    ```sh
-    # create a new Gatsby site using the blog starter
-    npx gatsby new my-awesome-portfolio https://github.com/vaporwavy/gatsby-london-after-midnight
-    ```
+### Todo:
 
-1.  **Start developing.**
+[ ] - Only grab most recent items
 
-    Navigate into your new site’s directory and start it up.
-
-    ```sh
-    cd my-awesome-portfolio/
-    gatsby develop
-    ```
-
-1.  **Open the source code and start editing!**
-
-    Your site is now running at `http://localhost:8000`!
-
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
-
-    Open the `my-blog-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
-
-<!-- AUTO-GENERATED-CONTENT:END -->
+[ ] - Only grab most recent items since last visit

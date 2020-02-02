@@ -3,9 +3,9 @@
   "private": true,
   "description": "A custom, image-centric theme for Gatsby",
   "version": "1.0.2",
-  "author": "Vaporwavy <i@ttv8.me> (https://vaporwavy.io)",
+  "author": "Midlu (https://serene-mclean-b366a9.netlify.com/)",
   "bugs": {
-    "url": "https://github.com/vaporwavy/gatsby-london-after-midnight/issues"
+    "url": "https://github.com/Midlu/gatsbyPortfolio"
   },
   "dependencies": {
     "gatsby": "^2.4.2",
@@ -46,7 +46,7 @@
     "prettier": "^1.17.0",
     "pretty-quick": "^1.10.0"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://serene-mclean-b366a9.netlify.com/",
   "keywords": [
     "gatsby",
     "ghost",
