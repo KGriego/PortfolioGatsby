@@ -29,10 +29,10 @@ const AboutPage = ({ data }, location) => {
           <p>I am a Full Stack Web Developer who graduated from UofA Coding Bootcamp in September 2018. I've always had a curiosity for coding. In high school, I took one semester of learning Python. Although I took interest, I never continued learning as I was a terrible student.
           </p>
           <p>
-            I joined the UofA bootcamp not knowing what I was getting myself into but I needed something to focus on. And overtime, I found a passion for development. I enjoy being able to give the guest of a website an amazing experience. There's nothing more irritating to me than trying to navigate a website for one thing and having to jump through a bunch of hoops to get it.
+            I joined the UofA bootcamp not knowing what I was getting myself into but I found a passion for development. There's nothing more satisfying then being able to solve a variety of problems while implementing a feature or REST api.
           </p>
           <p>
-            Backend is an exciting area of development. There's so many ways to implement one thing. 
+            Over the course of the last few years, I've slowly learned and gained exprience in back end development. 
           </p>
         </div>
       </article>
