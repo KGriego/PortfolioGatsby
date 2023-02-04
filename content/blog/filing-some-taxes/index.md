@@ -27,7 +27,6 @@ description: Description about taxes
   lorem ipsum stuff about mobile responsiveness
   </p>
 
-
 ![A look at some mobile responsiveness!!](./mobile_home.png)
 
 ![A look at even more mobile responsiveness!!](./about_us_taxes.png)

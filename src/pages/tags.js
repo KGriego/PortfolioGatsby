@@ -1,6 +1,6 @@
 import React from "react"
-import _ from "lodash";
-import { Link } from "gatsby";
+import _ from "lodash"
+import { Link } from "gatsby"
 import { graphql, StaticQuery } from "gatsby"
 
 import Layout from "../components/layout"
@@ -16,9 +16,7 @@ const TagIndex = ({ data }) => {
 
   return (
     <Layout title={siteTitle}>
-      <SEO
-        title="Tags"
-      />
+      <SEO title="Tags" />
       <header className="tag-page-head">
         <h1 className="page-head-title">Tags({tags.length})</h1>
       </header>
@@ -55,8 +53,6 @@ const indexQuery = graphql`
 export default props => (
   <StaticQuery
     query={indexQuery}
-    render={data => (
-      <TagIndex props data={data} />
-    )}
+    render={data => <TagIndex props data={data} />}
   />
 )

@@ -32,7 +32,6 @@ description: A deep investigation into the happenings of other lives.
     Along the way, we managed to integrate a theme switch. Learning how to go from the Dark Side to the Light Side was an interesting experience. 
   </p>
 
-
 ![Toggle between the Dark and Light side!](./light_theme.png)
 
 ![Add your chirp to the Dark or Light side! You choose!](./new_post.png)

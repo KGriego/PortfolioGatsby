@@ -26,13 +26,22 @@ const AboutPage = ({ data }, location) => {
             {/* <figcaption>Some comment in here</figcaption> */}
           </figure>
           <h3 id="dynamic-styles">My name is Kevin A. Griego.</h3>
-          <p>I am a Full Stack Web Developer who graduated from UofA Coding Bootcamp in September 2018. I've always had a curiosity for coding. In high school, I took one semester of learning Python. Although I took interest, I never continued learning as I was a terrible student.
+          <p>
+            I am a Full Stack Web Developer who graduated from UofA Coding
+            Bootcamp in September 2018. I've always had a curiosity for coding.
+            In high school, I took one semester of learning Python. Although I
+            took interest, I never continued learning as I was a terrible
+            student.
           </p>
           <p>
-            I joined the UofA bootcamp not knowing what I was getting myself into but I found a passion for development. There's nothing more satisfying then being able to solve a variety of problems while implementing a feature or REST api.
+            I joined the UofA bootcamp not knowing what I was getting myself
+            into but I found a passion for development. There's nothing more
+            satisfying then being able to solve a variety of problems while
+            implementing a feature or REST api.
           </p>
           <p>
-            Over the course of the last few years, I've slowly learned and gained exprience in back end development. 
+            Over the course of the last few years, I've slowly learned and
+            gained exprience in back end development.
           </p>
         </div>
       </article>
