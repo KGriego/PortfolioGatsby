@@ -1,9 +1,9 @@
 ---
-title: Cooming soon!
-date: "2025-07-17"
+title: BottleTracker
+date: "2024-11-18"
 thumbnail:
-tags: [who_knows!?]
-description: Soon to be seen!
+tags: [Firebase, Gatsby, React, Cloud Services, ]
+description: BottleTracker is for tracking the amounts of milk given to infant humans or animals. 
 ---
 
 <div>
