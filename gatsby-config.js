@@ -1,28 +1,29 @@
-const urljoin = require("url-join")
-const siteConfig = require("./siteConfig")
-
 module.exports = {
   siteMetadata: {
-    title: siteConfig.name,
-    author: siteConfig.author,
-    description: siteConfig.description,
-    siteUrl: urljoin(siteConfig.url, siteConfig.prefix),
+    title: "Kevin A. Griego - My Portfolio",
+    author: "kgriego",
+    description:
+      "A place to showcase the projects and thoughts I'm having at the moment. Please enjoy!",
+    siteUrl: "https://kgriego.netlify.app",
+    prefix: "/",
+    name: "Kevin A. Griego",
+    email: "kev.gri32@gmail.com",
     social: {
-      twitter: siteConfig.twitter,
+      twitter: "Midlu_",
     },
   },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
+        path: `./content/blog`,
         name: `blog`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/assets`,
+        path: `./content/assets`,
         name: `assets`,
       },
     },
@@ -52,8 +53,8 @@ module.exports = {
         ],
       },
     },
-    `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-plugin-postcss`,
       options: {
@@ -77,18 +78,11 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: ``,
-      },
-    },
-    `gatsby-plugin-feed`,
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: siteConfig.name,
-        short_name: siteConfig.shortName,
-        start_url: siteConfig.prefix,
+        name: "Kevin A. Griego",
+        shortName: "My Portfolio",
+        start_url: "/",
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
@@ -97,5 +91,14 @@ module.exports = {
     },
     `gatsby-plugin-netlify`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sitemap`,
+    // {
+    //   resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     trackingId: ``,
+    //   },
+    // },
+    // "gatsby-plugin-mdx",
   ],
 }
