@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 import "../utils/normalize.css"
 import "../utils/css/screen.css"
 
-const AboutPage = ({ data }, location) => {
+const AboutContent = ({ data }, location) => {
   const siteTitle = data.site.siteMetadata.title
   return (
     <Layout title={siteTitle}>
@@ -68,11 +68,13 @@ const indexQuery = graphql`
   }
 `
 
-export default props => (
+const AboutPage = props => (
   <StaticQuery
     query={indexQuery}
     render={data => (
-      <AboutPage location={props.location} data={data} {...props} />
+      <AboutContent location={props.location} data={data} {...props} />
     )}
   />
 )
+
+export default AboutPage;
