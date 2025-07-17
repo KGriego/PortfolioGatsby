@@ -10,7 +10,7 @@ const Layout = props => {
         <div className="site-head-container">
           <a
             className="nav-burger"
-            href={`#`}
+            href={`/#`}
             onClick={() => setToggleNav(!toggleNav)}
           >
             <div
@@ -59,7 +59,7 @@ const Layout = props => {
                 LinkedIn
               </a>
               <a
-                href="https://github.com/Midlu/"
+                href="https://github.com/KGriego/"
                 title="GitHub"
                 target="_blank"
                 rel="noopener noreferrer"
