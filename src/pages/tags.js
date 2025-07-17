@@ -45,7 +45,7 @@ const indexQuery = graphql`
       }
     }
     allMarkdownRemark {
-      distinct(field: frontmatter___tags)
+      distinct(field: {frontmatter: {tags: SELECT}})
     }
   }
 `
