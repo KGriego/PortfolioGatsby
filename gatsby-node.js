@@ -11,10 +11,7 @@ exports.createPages = ({ graphql, actions }) => {
   return graphql(
     `
       {
-        allMarkdownRemark(
-          sort: { fields: [frontmatter___date], order: DESC }
-          limit: 1000
-        ) {
+        allMarkdownRemark(sort: { frontmatter: { date: DESC }}, limit: 1000) {
           edges {
             node {
               fields {
@@ -41,7 +38,7 @@ exports.createPages = ({ graphql, actions }) => {
     posts.forEach((post, index) => {
       const previous = index === posts.length - 1 ? null : posts[index + 1].node
       const next = index === 0 ? null : posts[index - 1].node
-
+      
       // Get tags for tags pages.
       if (post.node.frontmatter.tags) {
         post.node.frontmatter.tags.forEach(tag => {
