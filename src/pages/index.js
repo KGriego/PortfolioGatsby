@@ -9,8 +9,9 @@ import PostCard from "../components/postCard"
 // import "../utils/global.scss"
 import "../utils/normalize.css"
 import "../utils/css/screen.css"
-//TODO: switch to staticQuery, get rid of comments, remove unnecessary components, export as draft template
-const BlogIndex = ({ data }, location) => {
+
+// TODO: switch to staticQuery, get rid of comments, remove unnecessary components, export as draft template
+const IndexContent = ({ data }, location) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
   let postCounter = 0
@@ -54,7 +55,7 @@ const indexQuery = graphql`
         description
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(sort: {frontmatter: {date: DESC}}) {
       edges {
         node {
           excerpt
@@ -80,11 +81,13 @@ const indexQuery = graphql`
   }
 `
 
-export default props => (
+const IndexPage = (props) => (
   <StaticQuery
     query={indexQuery}
     render={data => (
-      <BlogIndex location={props.location} props data={data} {...props} />
+      <IndexContent location={props.location} props data={data} {...props} />
     )}
   />
 )
+
+export default IndexPage
