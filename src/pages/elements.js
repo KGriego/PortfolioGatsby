@@ -3,17 +3,17 @@ import { graphql, StaticQuery } from "gatsby"
 import Img from "gatsby-image"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 import "../utils/normalize.css"
 import "../utils/css/screen.css"
 
-const ElementsPage = ({ data }, location) => {
+const ElementsContent = ({ data }, location) => {
   const siteTitle = data.site.siteMetadata.title
 
   return (
     <Layout title={siteTitle}>
-      <SEO title="Elements" />
+      <Seo title="Elements" />
 
       <article className="post-content page-template no-image">
         <div className="post-content-body">
@@ -40,7 +40,7 @@ const ElementsPage = ({ data }, location) => {
             <code>
               for (;;) {"{"} ... {"}"}
             </code>
-            . Finally, this is a <a href="#">link</a>.
+            . Finally, this is a <a href={"/#"}>link</a>.
           </p>
           <h2 id="heading-level-2">Heading Level 2</h2>
           <h3 id="heading-level-3">Heading Level 3</h3>
@@ -193,7 +193,7 @@ const ElementsPage = ({ data }, location) => {
             </tbody>
             <tfoot>
               <tr>
-                <td colSpan={2} />
+                <td aria-label={"empty column"} colSpan={2} />
                 <td>100.00</td>
               </tr>
             </tfoot>
@@ -202,53 +202,53 @@ const ElementsPage = ({ data }, location) => {
           <h2 id="buttons">Buttons</h2>
           <ul className="actions">
             <li>
-              <a href="#" className="button primary">
+              <a href={"/#"} className="button primary">
                 Primary
               </a>
             </li>
             <li>
-              <a href="#" className="button">
+              <a href={"/#"} className="button">
                 Default
               </a>
             </li>
           </ul>
           <ul className="actions">
             <li>
-              <a href="#" className="button primary large">
+              <a href={"/#"} className="button primary large">
                 Large
               </a>
             </li>
             <li>
-              <a href="#" className="button">
+              <a href={"/#"} className="button">
                 Default
               </a>
             </li>
             <li>
-              <a href="#" className="button small">
+              <a href={"/#"} className="button small">
                 Small
               </a>
             </li>
           </ul>
           <ul className="actions fit">
             <li>
-              <a href="#" className="button primary fit">
+              <a href={"/#"} className="button primary fit">
                 Fit
               </a>
             </li>
             <li>
-              <a href="#" className="button fit">
+              <a href={"/#"} className="button fit">
                 Fit
               </a>
             </li>
           </ul>
           <ul className="actions fit small">
             <li>
-              <a href="#" className="button primary fit small">
+              <a href={"/#"} className="button primary fit small">
                 Fit + Small
               </a>
             </li>
             <li>
-              <a href="#" className="button fit small">
+              <a href={"/#"} className="button fit small">
                 Fit + Small
               </a>
             </li>
@@ -569,11 +569,13 @@ const indexQuery = graphql`
   }
 `
 
-export default props => (
+const ElementsPage = props => (
   <StaticQuery
     query={indexQuery}
     render={data => (
-      <ElementsPage location={props.location} data={data} {...props} />
+      <ElementsContent location={props.location} data={data} {...props} />
     )}
   />
 )
+
+export default ElementsPage

@@ -2,7 +2,7 @@ import React from "react"
 import { graphql, StaticQuery } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 // import Bio from "../components/bio"
 import PostCard from "../components/postCard"
 
@@ -18,7 +18,7 @@ const IndexContent = ({ data }, location) => {
 
   return (
     <Layout title={siteTitle}>
-      <SEO
+      <Seo
         title="Home"
         keywords={[`devlog`, `blog`, `gatsby`, `javascript`, `react`]}
       />

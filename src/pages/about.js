@@ -3,7 +3,7 @@ import { graphql, StaticQuery } from "gatsby"
 import Img from "gatsby-image"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 import "../utils/normalize.css"
 import "../utils/css/screen.css"
@@ -12,7 +12,7 @@ const AboutContent = ({ data }, location) => {
   const siteTitle = data.site.siteMetadata.title
   return (
     <Layout title={siteTitle}>
-      <SEO title="About" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
+      <Seo title="About" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
       <article className="post-content page-template no-image">
         <div className="post-content-body">
           <h2 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-">

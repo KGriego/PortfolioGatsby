@@ -2,13 +2,13 @@ import React from "react"
 import { graphql, StaticQuery } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
-const Contact = ({ data }, location) => {
+const ContactContent = ({ data }, location) => {
   const siteTitle = data.site.siteMetadata.title
   return (
     <Layout title={siteTitle}>
-      <SEO
+      <Seo
         title="Contact Me"
         keywords={[`devlog`, `blog`, `gatsby`, `javascript`, `react`]}
       />
@@ -59,11 +59,13 @@ const indexQuery = graphql`
   }
 `
 
-export default props => (
+const ContactPage = props => (
   <StaticQuery
     query={indexQuery}
     render={data => (
-      <Contact location={props.location} props data={data} {...props} />
+      <ContactContent location={props.location} props data={data} {...props} />
     )}
   />
 )
+
+export default ContactPage

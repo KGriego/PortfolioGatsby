@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import { Link } from "gatsby"
 import Tags from "./tag"
 
-export default props => (
+const ContentComponent = props => (
   <article
     className={`post-card ${props.count % 3 === 0 && `post-card-large`} ${
       props.postClass
@@ -69,3 +69,5 @@ class ContentWithImage extends Component {
     )
   }
 }
+
+export default ContentComponent

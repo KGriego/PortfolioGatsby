@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import { graphql, StaticQuery } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 // import "../utils/global.scss"
 import "../utils/normalize.css"
@@ -16,7 +16,7 @@ const TagIndex = ({ data }) => {
 
   return (
     <Layout title={siteTitle}>
-      <SEO title="Tags" />
+      <Seo title="Tags" />
       <header className="tag-page-head">
         <h1 className="page-head-title">Tags({tags.length})</h1>
       </header>
@@ -50,9 +50,11 @@ const indexQuery = graphql`
   }
 `
 
-export default props => (
+const TagTemplate = props => (
   <StaticQuery
     query={indexQuery}
     render={data => <TagIndex props data={data} />}
   />
 )
+
+export default TagTemplate
