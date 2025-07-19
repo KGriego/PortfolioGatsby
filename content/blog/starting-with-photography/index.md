@@ -14,7 +14,7 @@ description: Showing the world one picture at a time.
     Over the course of this site, there were various iterations, some that never saw the daylight. But all in all, it was the knowledge that gained. This was more design than technical and sometimes that's where most of the work lies. I would like to go back one day and update it again as I still feel like there are improvements that could be made all around.
   </p>
   <p>
-    <a href='https://laurieannesphotography.com/'>
+    <a href='https://distracted-lamport-9d0060.netlify.app/'>
       Site
     </a>
   </p>
