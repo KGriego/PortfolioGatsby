@@ -7,6 +7,7 @@
   "bugs": {
     "url": "https://github.com/Midlu/gatsbyPortfolio"
   },
+  "browsers": ["last 2 versions"],
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.11",
     "gatsby": "^5.14.1",
