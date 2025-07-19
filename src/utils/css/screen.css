@@ -612,6 +612,10 @@ body {
   color: var(--color-base);
 }
 
+.post-content-body p {
+  color: var(--color-base);
+}
+
 .post-content-body li {
   word-break: break-word;
 }
