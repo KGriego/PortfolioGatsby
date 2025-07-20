@@ -14,17 +14,17 @@ description: A deep investigation into the happenings of other lives.
     It was interesting working on as the frontend team. We accomplished quite a bit, users can log in, make chirps, like, hate, and favorite them. We ran into setbacks like changing frameworks, refactoring some of the codebase, deciding how we wanted to structure the data. We also were testing as we went along. It is interesting to see how things are deeply connected when you try to isolate and test them.
   </p>
   <p>
-    <a href='http://kllll.s3-website-us-west-1.amazonaws.com/login'>
+    <a href='http://kllll.s3-website-us-west-1.amazonaws.com/login' target="_blank">
       Demo
     </a>
   </p>
   <p>
-    <a href='https://github.com/bytesizedxyz/nov-project-chirp-backend'>
+    <a href='https://github.com/bytesizedxyz/nov-project-chirp-backend' target="_blank">
       Backend Repo
     </a>
   </p>
   <p>
-    <a href='https://github.com/bytesizedxyz/nov-project-chirp-frontend'>
+    <a href='https://github.com/bytesizedxyz/nov-project-chirp-frontend' target="_blank">
       Frontend Repo
     </a>
   </p>

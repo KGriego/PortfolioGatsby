@@ -11,20 +11,17 @@ description: Description about taxes
     Working title
   </h3>
   <p>
-    Made for and accounting firm.  
+    Made for a landscaping business. It was great trying to showcase the work this business can do while showing the before and after changes! 
   </p>
   <p>
-    <a href='https://paraiso-landscapingpnw.com'>
+    <a href='https://paraiso-landscapingpnw.com' target="_blank">
       Demo
     </a>
   </p>
   <p>
-    <a href='https://github.com/Midlu/LanHiWebsite/settings'>
+    <a href='https://github.com/Midlu/LanHiWebsite/settings' target="_blank">
       Frontend Repo
     </a>
-  </p>
-  <p>
-  lorem ipsum stuff about mobile responsiveness
   </p>
 
 ![A look at some mobile responsiveness!!](./mobile_home.png)

@@ -14,12 +14,12 @@ description: A different take on learning.
     Now having experienced working on a team, we switched roles, with the frontend as the backend and the backend as the frontend. It wasn't as difficult testing the backend once we started seperating everything out into their own functions. It was very straightforward work. The only difficulties we had we with the frontend needing help to finish because of difficulty understanding the technologies being implemented. Towards the end, we managed to get a MVP by the deadline of the project.
   </p>
   <p>
-    <a href='https://angry-euclid-4e89b9.netlify.com/'>
+    <a href='https://angry-euclid-4e89b9.netlify.com/' target="_blank">
       Demo
     </a>
   </p>
   <p>
-    <a href='https://github.com/bytesizedxyz/dec-project-learntube'>
+    <a href='https://github.com/bytesizedxyz/dec-project-learntube' target="_blank">
       Repo
     </a>
   </p>

@@ -11,21 +11,15 @@ description: Description about taxes
     Working title
   </h3>
   <p>
-    Made for and accounting firm.  
+    Made for an accounting firm.  
   </p>
   <p>
-    <a href='https://happy-roentgen-0e9da3.netlify.app'>
-      Demo
-    </a>
+    <a href='https://happy-roentgen-0e9da3.netlify.app' target="_blank">Demo</a>
   </p>
   <p>
-    <a href='https://github.com/Midlu/LanHiWebsite/settings'>
-      Frontend Repo
-    </a>
+    <a href='https://github.com/Midlu/LanHiWebsite' target="_blank">Frontend Repo</a>
   </p>
-  <p>
-  lorem ipsum stuff about mobile responsiveness
-  </p>
+  <p>This was one of the first freelance websites I've done. This was a great introduction into working for a private person and their compnay.</p>
 
 ![A look at some mobile responsiveness!!](./mobile_home.png)
 

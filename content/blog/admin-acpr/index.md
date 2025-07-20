@@ -14,17 +14,17 @@ description: What if everything you knew was recorded
     Here we can check in guests who need their devices repaired. We can see the date they were added, the owner name of the device, their number, the name of the device, the issue, and the status of the repair. We can update the status of the device. Future improvements would be to notify the guest everytime the status of their device is updated. This was made in React.
   </p>
   <p>
-    <a href='https://brave-lamport-9acdc6.netlify.app/'>
+    <a href='https://brave-lamport-9acdc6.netlify.app/' target="_blank">
       Demo
     </a>
   </p>
   <p>
-    <a href='https://github.com/Midlu/AdminACPRReact'>
+    <a href='https://github.com/Midlu/AdminACPRReact' target="_blank">
       Backend Repo
     </a>
   </p>
   <p>
-    <a href='https://github.com/Midlu/AdminACPRReactFrontend'>
+    <a href='https://github.com/Midlu/AdminACPRReactFrontend' target="_blank">
       Frontend Repo
     </a>
   </p>

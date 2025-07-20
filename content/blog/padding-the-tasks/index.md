@@ -14,12 +14,12 @@ description: Soon to be seen!
     
   </p>
   <p>
-    <a href='https://taskpadbackend.herokuapp.com/'>
+    <a href='https://taskpadbackend.herokuapp.com/' target="_blank">
       Demo
     </a>
   </p>
   <p>
-    <a href='https://github.com/Midlu/TaskPad/'>
+    <a href='https://github.com/Midlu/TaskPad/' target="_blank">
     Repo
     </a>
   </p>
