@@ -8,7 +8,7 @@ description: Learning some new tech stacks
 
 <div>
   <h3>
-    A place to keep track of yours tasks! This was done using Go for the backend. This was a fun project to tackle because I took an example I really liked, and converted the backend from a different language, I think it was NodeJS, to use Go for the backend. This was challenging, but overall a fun problem to overcome and grow my skillset.
+    I accomplished this by using Go for the backend. This was a challenging and fun project to tackle by taking an example that caught my interest and converting the backend from a different language, NodeJS, to use Go. This challenging and fun project helped me overcome and grow my skill set as-well as resulting a place to keep track of your task!
   </h3>
   <p>
     

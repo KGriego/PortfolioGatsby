@@ -3,7 +3,7 @@ title: Mexican food at it's best!
 date: "2022-01-10"
 thumbnail:
 tags: [React, semantic-ui]
-description: My uncle's restaurant, displaying his menu and and location!
+description: My uncle's restaurant, displaying his menu and location!
 ---
 
 <div>
@@ -23,8 +23,6 @@ description: My uncle's restaurant, displaying his menu and and location!
       Frontend Repo (Private)
     </a>
   </p>
-  <p>
-  I enjoyed helping create a little website for my uncle and his restuarant. It's been amazing seeing them grow.
-  </p>
+  <p>I was grateful to have been given the opportunity to create a website for my uncle’s restaurant and seeing the growth of their success.</p>
 
 </div>
