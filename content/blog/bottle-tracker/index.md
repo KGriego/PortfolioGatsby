@@ -11,7 +11,7 @@ description: BottleTracker is for tracking the amounts of milk given to infant h
     Working title
   </h3>
   <p>
-    Made for new work that's in progress
+    A site to keep track of feedings given to growing babies.
   </p>
   <p>
     <a href='#'>
@@ -19,7 +19,6 @@ description: BottleTracker is for tracking the amounts of milk given to infant h
     </a>
   </p>
   <p>
-    <a href='#'>
-    </a>
+    <a href='https://github.com/Mcorupe/BottleTracker' target="_blank">Repo</a>
   </p>
 </div>

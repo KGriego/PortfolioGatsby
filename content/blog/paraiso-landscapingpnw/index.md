@@ -19,13 +19,9 @@ description: Description about taxes
     </a>
   </p>
   <p>
-    <a href='https://github.com/Midlu/LanHiWebsite/settings' target="_blank">
-      Frontend Repo
+    <a href='https://github.com/ParaisoLandscaping/paraiso_landscaping' target="_blank">
+      Frontend Repo (Private)
     </a>
   </p>
-
-![A look at some mobile responsiveness!!](./mobile_home.png)
-
-![A look at even more mobile responsiveness!!](./about_us_taxes.png)
 
 </div>
