@@ -23,25 +23,17 @@ const AboutContent = ({ data }, location) => {
               fluid={data.benchAccounting.childImageSharp.fluid}
               className="kg-image"
             />
-            {/* <figcaption>Some comment in here</figcaption> */}
+            <figcaption>Life is too short to not be curious and daring</figcaption>
           </figure>
           <h3 id="dynamic-styles">My name is Kevin A. Griego.</h3>
           <p>
-            I am a Full Stack Web Developer who graduated from UofA Coding
-            Bootcamp in September 2018. I've always had a curiosity for coding.
-            In high school, I took one semester of learning Python. Although I
-            took interest, I never continued learning as I was a terrible
-            student.
+            I am a Software Engineer who graduated from UofA. This has been a passion of mine since I dipped my toes into this.
+            I've lived in a variety of different places growing up with has opened my eyes to a lot. When I'm not developing,
+            I'm gardening, taking my dog to sight see, or spending time with my family.
           </p>
           <p>
-            I joined the UofA bootcamp not knowing what I was getting myself
-            into but I found a passion for development. There's nothing more
-            satisfying then being able to solve a variety of problems while
-            implementing a feature or REST api.
-          </p>
-          <p>
-            Over the course of the last few years, I've slowly learned and
-            gained exprience in back end development.
+            I am a multi-talented developer, who can be a designer, tester, teacher and student when needed.
+            I enjoy trying new things and curious to learn about anything and everything.
           </p>
         </div>
       </article>
