@@ -1,5 +1,5 @@
 ---
-title: Filing some Taxes
+title: TerazaGroup LLC
 date: "2019-07-02"
 thumbnail: ./desktop_home.png
 tags: [React, semantic-ui, Gatsby]

@@ -1,5 +1,5 @@
 ---
-title: Starting with Photography
+title: LaurieAnnesPhotography
 date: "2019-08-03"
 thumbnail: ./home.png
 tags: [React, semantic-ui, Gatsby]

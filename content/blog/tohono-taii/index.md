@@ -1,5 +1,5 @@
 ---
-title: Starting with Photography
+title: Tohono Tai'i
 date: "2025-07-22"
 thumbnail: 
 tags: [React, tailwindcss, NextJS]

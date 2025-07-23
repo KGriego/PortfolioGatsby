@@ -1,5 +1,5 @@
 ---
-title: Are your tasks being padded!
+title: TaskPad
 date: "2020-01-30"
 thumbnail:
 tags: [Go, React, postgres, Mux, GoLang, gopher]

@@ -1,5 +1,5 @@
 ---
-title: Designing the backyard of your dreams!
+title: Paraiso Landscaping PNW
 date: "2022-07-10"
 thumbnail: 
 tags: [React, semantic-ui, Gatsby]

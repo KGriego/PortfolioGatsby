@@ -1,5 +1,5 @@
 ---
-title: Mexican food at it's best!
+title: Huicholitos
 date: "2022-01-10"
 thumbnail:
 tags: [React, semantic-ui]
