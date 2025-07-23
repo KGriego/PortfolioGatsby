@@ -28,8 +28,8 @@ const AboutContent = ({ data }, location) => {
           <h3 id="dynamic-styles">My name is Kevin A. Griego.</h3>
           <p>
             I am a Software Engineer who graduated from UofA. This has been a passion of mine since I dipped my toes into this.
-            I've lived in a variety of different places growing up with has opened my eyes to a lot. When I'm not developing,
-            I'm gardening, taking my dog to sight see, or spending time with my family.
+            I've lived in a variety of different places growing up that has opened my eyes to a lot. When I'm not developing,
+            I'm gardening, taking my dog to sight see, reading, or spending time with my family.
           </p>
           <p>
             I am a multi-talented developer, who can be a designer, tester, teacher and student when needed.
