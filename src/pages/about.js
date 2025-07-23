@@ -33,7 +33,7 @@ const AboutContent = ({ data }, location) => {
           </p>
           <p>
             I am a multi-talented developer, who can be a designer, tester, teacher and student when needed.
-            I enjoy trying new things and curious to learn about anything and everything.
+            I enjoy trying new things and am curious to learn about the world.
           </p>
         </div>
       </article>
